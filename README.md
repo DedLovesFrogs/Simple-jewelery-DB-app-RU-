@@ -26,10 +26,10 @@
 - Нажмите "ОК".</p>
 </details>
 
-2. Открываете в Visual Studio Community папку **jewelery_store**.
-3. Изменяете строку 13 в Jewelery_DB.cs в соответствии с именем вашего компьютера и именем сервера. **(Вместо your_own_pc_name вписываете имя своего ПК (можно посмотреть в окне "Система" в Параметрах Windows), а вместо sql_server_name - имя своего созданного сервера MS SQL (можно посмотреть в SSMS)**.
+3. Открываете в Visual Studio Community папку **jewelery_store**.
+4. Изменяете строку 13 в Jewelery_DB.cs в соответствии с именем вашего компьютера и именем сервера. **(Вместо your_own_pc_name вписываете имя своего ПК (можно посмотреть в окне "Система" в Параметрах Windows), а вместо sql_server_name - имя своего созданного сервера MS SQL (можно посмотреть в SSMS)**.
 https://github.com/DedLovesFrogs/Simple-jewelery-DB-app-RU-/blob/df4710532eec9c8f341f695950a41aa83b4553c7/jewelery_store/jewelery_store/Jewelery_DB.cs#L13
-4. Компилируете.
+5. Компилируете.
 
 **TODO:**
 - Оптимизировать SQL-подключение к БД;
