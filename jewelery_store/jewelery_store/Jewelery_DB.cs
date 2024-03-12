@@ -9,7 +9,8 @@ namespace jewelery_store
 {
     internal class Jewelery_DB
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=WIN-H3NVTFKL2H6\SANYASQL; Initial Catalog=jewelery_store; Integrated Security=True");
+        // Вместо your_own_pc_name вписываете имя своего ПК (можно посмотреть в окне "Система" в Параметрах Windows), а вместо sql_server_name - имя своего созданного сервера MS SQL (можно посмотреть в SSMS).
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=your_own_pc_name\sql_server_name; Initial Catalog=jewelery_store; Integrated Security=True");
 
         public void openConnection()
         {
